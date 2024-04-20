@@ -1,0 +1,113 @@
+.about {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+.about__title {
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.about__text {
+  color: white;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.about__wrapper {
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.about__tech-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.about__tech {
+  padding: 5px 10px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  min-width: 170px;
+  min-height: 60px;
+
+  border: 1px solid white;
+  border-image: linear-gradient(-45deg, white, red) 1;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    border-image: linear-gradient(-45deg, white, red) 1;
+  }
+  50% {
+    border-image: linear-gradient(45deg, white, red) 1;
+  }
+  100% {
+    border-image: linear-gradient(-45deg, white, red) 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .about__title {
+    font-size: 30px;
+  }
+  .about__text {
+    font-size: 20px;
+  }
+  .about {
+    gap: 10px;
+  }
+  .about__tech-wrapper {
+    gap: 10px;
+  }
+  .about__tech {
+    padding: 0px 10px;
+    min-width: 160px;
+    min-height: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  .about__tech-wrapper {
+    height: 25vh;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    scrollbar-color: red black; /*Цвет скролла, цвет ползунка*/
+  }
+  .about__tech-wrapper::-webkit-scrollbar-track {
+    background-color: red; /*Цвет скролла*/
+  }
+  .about__tech-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 5px; /*Закругление ползунка*/
+    background-color: black; /*Цвет ползунка*/
+  }
+  .about__tech-wrapper::-webkit-scrollbar {
+    width: 0px; /*Толщина скролла*/
+  }
+}

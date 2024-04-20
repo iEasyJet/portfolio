@@ -1,0 +1,30 @@
+.button-next {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 25px;
+
+  transition: all 0.15s linear;
+}
+
+.button-next_top-lower {
+  bottom: 25px;
+}
+
+.button-next_top-up {
+  top: 25px;
+}
+
+.button-next:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px red;
+  border-color: red;
+  color: red;
+}
