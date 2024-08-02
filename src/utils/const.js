@@ -6,8 +6,15 @@ import randomAnimal from './imgs/randomAnimal.png';
 import aimTraining from './imgs/aimTraining.png';
 import todoApp from './imgs/todoApp.png';
 import colorLine from './imgs/colorLine.png';
+import excel from './imgs/excel.png';
 
 const projects = [
+  {
+    img: excel,
+    title: 'Excel на чистом JS',
+    linkView: 'https://ieasyjet.github.io/excel/#',
+    linkGit: 'https://github.com/iEasyJet/excel',
+  },
   {
     img: diploma,
     title: 'Дип. работа Яндекс.Практикум',
