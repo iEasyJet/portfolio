@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <section className='app' style={{ marginTop: move + 'vh' }}>
+    <section className="app" style={{ marginTop: move + 'vh' }}>
       <Home isMove={isMove} />
       <About isMove={isMove} />
       <Project isMove={isMove} />

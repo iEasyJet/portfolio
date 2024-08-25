@@ -4,9 +4,10 @@ function ButtonUpLower(props) {
   function onClick() {
     props.onClick(props.isLower);
   }
+
   return props.isLower ? (
     <button
-      type='button'
+      type="button"
       className={`button-next ${
         props.isLower ? 'button-next_top-lower' : 'button-next_top-up'
       }`}
@@ -16,7 +17,7 @@ function ButtonUpLower(props) {
     </button>
   ) : (
     <button
-      type='button'
+      type="button"
       className={`button-next ${
         props.isLower ? 'button-next_top-lower' : 'button-next_top-up'
       }`}

@@ -7,6 +7,7 @@ import aimTraining from './imgs/aimTraining.png';
 import todoApp from './imgs/todoApp.png';
 import colorLine from './imgs/colorLine.png';
 import excel from './imgs/excel.png';
+import gendalf from './imgs/gendalf.png';
 
 const projects = [
   {
@@ -14,6 +15,12 @@ const projects = [
     title: 'Excel на чистом JS',
     linkView: 'https://ieasyjet.github.io/excel/#',
     linkGit: 'https://github.com/iEasyJet/excel',
+  },
+  {
+    img: gendalf,
+    title: 'Верстка (Тестовое задание)',
+    linkView: 'https://ieasyjet.github.io/gendalf/',
+    linkGit: 'https://github.com/iEasyJet/gendalf',
   },
   {
     img: diploma,
