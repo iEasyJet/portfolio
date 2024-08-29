@@ -8,6 +8,7 @@ import todoApp from './imgs/todoApp.png';
 import colorLine from './imgs/colorLine.png';
 import excel from './imgs/excel.png';
 import gendalf from './imgs/gendalf.png';
+import letolink from './imgs/letolink.png';
 
 const projects = [
   {
@@ -21,6 +22,12 @@ const projects = [
     title: 'Верстка (Тестовое задание)',
     linkView: 'https://ieasyjet.github.io/gendalf/',
     linkGit: 'https://github.com/iEasyJet/gendalf',
+  },
+  {
+    img: letolink,
+    title: 'Верстка (Тестовое задание)',
+    linkView: 'https://ieasyjet.github.io/letolink/',
+    linkGit: 'https://github.com/iEasyJet/letolink',
   },
   {
     img: diploma,
