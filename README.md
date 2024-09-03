@@ -1,2 +1,2 @@
-# (Ссылка на "Портфолио")[https://ieasyjet.github.io/portfolio/]
+# [Ссылка на "Портфолио"](https://ieasyjet.github.io/portfolio/)
 
