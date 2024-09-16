@@ -32,7 +32,8 @@ const projects = [
   {
     img: diploma,
     title: 'Дип. работа Яндекс.Практикум',
-    linkView: 'https://easyjet.nomoredomainsrocks.ru',
+    linkView: 'https://ieasyjet.github.io/movies-explorer-frontend/#/',
+    /* linkView: 'https://easyjet.nomoredomainsrocks.ru', */
     linkGit: 'https://github.com/iEasyJet/movies-explorer-frontend',
   },
   {
