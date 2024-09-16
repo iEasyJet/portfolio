@@ -9,8 +9,15 @@ import colorLine from './imgs/colorLine.png';
 import excel from './imgs/excel.png';
 import gendalf from './imgs/gendalf.png';
 import letolink from './imgs/letolink.png';
+import kanban from './imgs/kanban.png';
 
 const projects = [
+  {
+    img: kanban,
+    title: 'Менеджер задач (Kanban)',
+    linkView: 'https://ieasyjet.github.io/kanban-gh-pages/',
+    linkGit: 'https://github.com/iEasyJet/kanban',
+  },
   {
     img: excel,
     title: 'Excel на чистом JS',
