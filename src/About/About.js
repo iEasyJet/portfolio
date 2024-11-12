@@ -4,31 +4,34 @@ import { techs } from '../utils/const.js';
 
 function About(props) {
   return (
-    <section className='about'>
-      <div className='about__wrapper'>
-        <h3 className='about__title'>
+    <section className="about">
+      <div className="about__wrapper">
+        <h3 className="about__title">
           <span style={{ color: 'red' }}>Обо</span> мне
         </h3>
-        <p className='about__text'>
-          Я Junior FrontEnd-разработчик. Мой путь разработчика начался 2021
-          года, когда я заинтересовался веб-разработкой и решил изучить HTML и
-          CSS. Далее прошел курс "Веб-разработчик" на платформе
-          Яндекс.Практикум, в процессе обучения был старшим студентов и помогал
-          другим студентам. Я сохраняю постоянное стремление оттачивать свои
-          навыки и идти в ногу с постоянно меняющимися тенденциями отрасли. Я
-          доступен для любой возможности трудоустройства, которая соответствует
-          моим интересам.
+        <p className="about__text">
+          {/* Я Frontend-разработчик. Мой путь разработчика начался 2021 года, когда
+          я заинтересовался веб-разработкой и решил изучить HTML и CSS. Далее
+          прошел курс "Веб-разработчик" на платформе Яндекс.Практикум, в
+          процессе обучения был старшим студентов и помогал другим студентам. Я
+          сохраняю постоянное стремление оттачивать свои навыки и идти в ногу с
+          постоянно меняющимися тенденциями отрасли. Я доступен для любой
+          возможности трудоустройства, которая соответствует моим интересам. */}
+          Создаю отличные пользовательские интерфейсы, которые решают
+          поставленные задачи. Я ответственный человек, который любит изучать
+          новые технологии. Моя главная цель - работа с умными людьми над
+          интересными проектами.
         </p>
       </div>
-      <div className='about__wrapper'>
-        <h3 className='about__title'>
+      <div className="about__wrapper">
+        <h3 className="about__title">
           <span style={{ color: 'red' }}>Технологии</span> и инструменты
         </h3>
-        <div className='about__tech-wrapper'>
+        <div className="about__tech-wrapper">
           {techs.map((el, index) => (
-            <div className='about__tech' key={index}>
-              <img width='48' height='48' src={el.link} alt={el.name} />
-              <p className='about__text'>{el.name}</p>
+            <div className="about__tech" key={index}>
+              <img width="48" height="48" src={el.link} alt={el.name} />
+              <p className="about__text">{el.name}</p>
             </div>
           ))}
         </div>

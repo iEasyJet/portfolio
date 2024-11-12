@@ -105,6 +105,14 @@ const techs = [
     link: 'https://img.icons8.com/fluency/48/typescript--v1.png',
   },
   {
+    name: 'Redux',
+    link: 'https://img.icons8.com/color/48/redux.png',
+  },
+  {
+    name: 'Grammy.js(TG-бот)',
+    link: 'https://img.icons8.com/doodle/48/telegram.png',
+  },
+  {
     name: 'Postman',
     link: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png',
   },
